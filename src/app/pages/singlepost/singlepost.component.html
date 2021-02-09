@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class=" col-12  " style="margin: auto;">
+            <h1 class="text-center">
+                post : {{data?.id}}
+            </h1>
+            <h1>{{data?.title}}</h1>
+            <p>{{data?.body}}</p>
+
+            <button class="btn btn-primary " [routerLink]="['/home/posts']"> back to all posts
+                        </button>
+
+            <hr>
+        </div>
+    </div>
+</div>
